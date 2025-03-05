@@ -113,5 +113,3 @@ The live dashboard is [here](https://app.powerbi.com/links/PHJSQTNC5Z?ctid=4331c
 1. **Reduce Abandoned Calls:** Analyze peak call hours and allocate more agents during high-traffic periods.  
 2. **Improve Customer Satisfaction:** Investigate why the **"Poor" rating is increasing**—possible causes include long wait times, unresolved issues, or poor agent communication.  
 3. **Optimize Response Time:** Reducing the **1:08** response time may lead to fewer abandoned calls and better satisfaction.  
-
-Would you like a more detailed breakdown or additional visuals to support this response? 🚀
