@@ -1,13 +1,58 @@
-# **Project Overview: Call Centre Trends Dashboard**  
-
 ## **Project Name:**  
 Call Centre Trends Analysis & Performance Insights  
 
-## **Company Background:**  
+## **Project Overview: Call Centre Trends Dashboard**  
 PhoneNow is a leading telecommunications company that provides customer support services worldwide through its call centre operations. With thousands of customer interactions daily, PhoneNow aims to enhance customer experience, operational efficiency, and agent performance by leveraging data-driven insights.  
 
-## **Project Purpose:**  
+## **Problem Statement:**  
 PhoneNow’s call centre generates a vast amount of data related to customer interactions, service efficiency, and agent productivity. However, this data has been underutilized in identifying performance trends and improvement areas. This project aims to thoroughly analyze and synthesize call centre data to uncover critical insights that will enhance customer satisfaction, optimize response times, and improve overall call centre operations.  
+---
+## **Data Description**
+![alt text](image.png)
+---
+## **Methodology**
+### **1. Data Collection**
+- The dataset consists of call center metrics such as:
+  - Calls  
+  - Answered Calls  
+  - Abandoned Calls  
+  - Response Time  
+  - Call Duration  
+  - Customer Satisfaction Ratings  
+- The data was extracted from the call center's internal systems and provided by the client.
+
+### **2. Data Cleaning & Preprocessing**
+- **Checked for missing values**: Ensured there were no null or inconsistent records.  
+- **Standardized date formats**: Converted timestamps to a consistent format for trend analysis.  
+- **Categorized customer satisfaction ratings** into Excellent, Neutral, and Poor based on given thresholds.  
+
+### **3. Data Analysis & Visualization**
+- **Call Performance Metrics**:
+  - Calculated the call answer rate and abandonment rate.
+  - Measured the average response time and call duration.
+- **Customer Satisfaction Trends**:
+  - Aggregated satisfaction scores by month.
+  - Used percentage distribution to analyze trends over time.
+- **Time Series Analysis**:
+  - Evaluated patterns in call volumes and satisfaction across different months.
+
+### **4. Dashboard Development**
+- **Tools Used**: Power BI  
+- **Visuals Created**:
+  - **KPIs** for key metrics (Total Calls, Answered Calls, Abandoned Calls, etc.).
+  - **Bar Charts** for call handling performance.
+  - **Pie Charts** for customer satisfaction distribution.
+  - **Line Charts** for call volume trends.
+  - **Stacked Bar Charts** for monthly satisfaction trends.
+
+### **5. Insights & Recommendations**
+- Derived actionable insights from the data, focusing on:
+  - Reducing abandoned call rates.
+  - Improving response time efficiency.
+  - Enhancing customer satisfaction based on trend analysis.
+- Suggested data-driven strategies for call center management.
+---
+
 
 ## **Key Focus Areas:**  
 This project will focus on analyzing key call centre metrics, including:  
@@ -17,19 +62,13 @@ This project will focus on analyzing key call centre metrics, including:
 - **Customer satisfaction scores and feedback trends**  
 - **Agent performance and workload distribution**  
 
-## **Expected Outcomes:**  
-- A **dynamic, interactive dashboard** providing real-time insights into call centre performance  
-- **Data-driven recommendations** to improve operational efficiency and customer satisfaction  
-- A **streamlined reporting system** for management to make informed decisions  
-
-By transforming raw call centre data into actionable insights, this project will help PhoneNow enhance its customer service experience and drive business success.
+---
 
 ### **1. Call Handling Performance**  
-- **Total Calls:** 5K  
-- **Answered Calls:** 4K (80% of total calls)  
+- **Total Calls:** 5000
+- **Answered Calls:** 4054 (80% of total calls)  
 - **Abandoned Calls:** 946 (19% abandonment rate)  
 - **Resolved Calls:** 3,646 (91% of answered calls)  
-
 🔹 **Insight:** High call answer rate, but nearly 1 in 5 calls are abandoned, indicating potential staffing or efficiency issues.
 
 ---
@@ -61,9 +100,15 @@ By transforming raw call centre data into actionable insights, this project will
 | **March** | 39.45% | 24.32% | 36.23% |
 
 🔹 **Insight:** A **slight decline in customer satisfaction** month-over-month, with "Poor" ratings increasing.
-
 ---
 
+### **5. Agent Performance**
+![](<Screenshot 2025-03-05 165419.png>) ![](<Screenshot 2025-03-05 165351.png>) ![](<Screenshot 2025-03-05 165650.png>) ![](<Screenshot 2025-03-05 165623.png>) ![](<Screenshot 2025-03-05 165553.png>) ![](<Screenshot 2025-03-05 165530.png>) ![](<Screenshot 2025-03-05 165507.png>) ![](<Screenshot 2025-03-05 165447.png>)
+---
+## **Dashboard**
+The live dashboard is [here](https://app.powerbi.com/links/PHJSQTNC5Z?ctid=4331c42e-69e8-40d9-af18-dd96b78416b7&pbi_source=linkShare)
+![alt text](<Screenshot 2025-03-05 163619.png>)
+---
 ## **Recommendations for Improvement**
 1. **Reduce Abandoned Calls:** Analyze peak call hours and allocate more agents during high-traffic periods.  
 2. **Improve Customer Satisfaction:** Investigate why the **"Poor" rating is increasing**—possible causes include long wait times, unresolved issues, or poor agent communication.  
