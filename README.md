@@ -1,10 +1,10 @@
 ## **Project Name:**  
 Call Centre Trends Analysis & Performance Insights  
 
-## **Project Overview: Call Centre Trends Dashboard**  
+## Project Overview: Call Centre Trends Dashboard 
 PhoneNow is a leading telecommunications company that provides customer support services worldwide through its call centre operations. With thousands of customer interactions daily, PhoneNow aims to enhance customer experience, operational efficiency, and agent performance by leveraging data-driven insights.  
-
-## **Problem Statement:**  
+---
+## Problem Statement: 
 PhoneNow’s call centre generates a vast amount of data related to customer interactions, service efficiency, and agent productivity. However, this data has been underutilized in identifying performance trends and improvement areas. This project aims to thoroughly analyze and synthesize call centre data to uncover critical insights that will enhance customer satisfaction, optimize response times, and improve overall call centre operations.  
 ---
 ## **Data Description**
